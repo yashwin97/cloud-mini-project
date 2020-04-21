@@ -4,10 +4,10 @@ Cloud Computing Mini-Project
  A movies database API which retrieves movie information from an external API [open movie database]. The app also has an internal API which links to a database of movies from Netflix where you have the ability to view, delete and add movies to the existing entries in the database using their title’s, through the app.
 
 Built With :
-Python – Flask
-Cassandra
-Docker
-AWS-EC2 Instance
+Python – Flask, 
+Cassandra, 
+Docker, 
+AWS-EC2 Instance, 
 Encryption and Security – SSL
 
 API:
