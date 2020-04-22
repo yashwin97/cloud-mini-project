@@ -46,7 +46,7 @@ def new_movie():
 def get_title(title):
     rows = session.execute( """Select * From movies.list where title = '{}'""".format(title))
     for p in rows:
-        return('<h1>{} has {} release year!</h1>'.format(title,p.release_year))
+        return('<h1>{} is in Netflix!</h1>'.format(title))
     return('<h1>That Movie does not exist!</h1>')
 
 if __name__ == '__main__':
